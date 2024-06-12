@@ -26,8 +26,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Our Figma Clone is a collaborative design tool built using Next.js, TypeScript, Tailwind CSS, Fabric.js, and Liveblocks. This powerful platform allows users to create, edit, and collaborate on design projects in real-time. With a sleek and intuitive interface, robust vector graphics support via Fabric.js, and live collaboration features powered by Liveblocks, this tool provides a seamless design experience. Explore the capabilities of our Figma Clone at ourwebsite.com and take your design projects to the next level.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/339017107-de43823b-9912-463b-8707-d458009efd93.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDM2MjcsIm5iZiI6MTcxODIwMzMyNywicGF0aCI6Ii8xMjY5NTY4MzQvMzM5MDE3MTA3LWRlNDM4MjNiLTk5MTItNDYzYi04NzA3LWQ0NTgwMDllZmQ5My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNDQyMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zYTZjNWQ0YWVkYzVmMzdiNjRkNzBlOWM2M2E3ZTZlY2M1YmIzNDBiNTUwMDUxNWVlY2Q4ZjdlYTQ4YmQ0NjM5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.N8xRcdpUChqXArY6QUHtptgM_3QKdChE8Of4t1vMxM8",
+    image: "Sigma.png",
 
     tags: ["Next Js", "TypeScript", "Tailwind CSS", "Fabric.js", "Liveblocks"],
     category: "NEXT",
@@ -40,8 +39,7 @@ export const projects = [
     date: "Apr 2024 - May 2024",
     description:
       "Our Ecommerce Store is a feature-rich platform built on the MERN stack, with Tailwind CSS for styling, Redux for state management, Cloudinary for image storage, and Postman for API testing. Offering seamless user authentication, product management and shopping cart functionality, our platform provides an intuitive and efficient shopping experience.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/336794622-dfa9d4cd-ccdb-4204-a26f-a63937522690.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDI2MzAsIm5iZiI6MTcxODIwMjMzMCwicGF0aCI6Ii8xMjY5NTY4MzQvMzM2Nzk0NjIyLWRmYTlkNGNkLWNjZGItNDIwNC1hMjZmLWE2MzkzNzUyMjY5MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNDI1MzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYzczZjEzMjY2NmIzYjZhZGU4ODI2YTAxYTIxMDFiMzYxYmI2NWI3YjQ5YjQ1ZGEyYmI2YjQyYWY3MDdjYTFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Klso2WBuQiAvTSvJ0IU3Y8hXGl1pW8LDIzYfHXKBf2M",
+    image: "Shoppers ecom.png",
     tags: [
       "React",
       "Express",
@@ -77,8 +75,7 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:
       "SupaCarr is an ultimate destination for hassle-free car rental and booking app. Developed with Next.js, Tailwind CSS, and TypeScript, SupaCarr simplifies the car rental process by offering detailed car listings, categorization, and seamless booking. Utilizing Rapid API integration, SupaCarr ensures real-time availability and pricing updates.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/336793089-00377136-c339-4d32-894a-ac61c534666a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDM4MjcsIm5iZiI6MTcxODIwMzUyNywicGF0aCI6Ii8xMjY5NTY4MzQvMzM2NzkzMDg5LTAwMzc3MTM2LWMzMzktNGQzMi04OTRhLWFjNjFjNTM0NjY2YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNDQ1MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iY2ZlYjRlNTQ4MjMwYTE5ZjE2YTdiMzhiN2RkNmYwODNlYTdiNDI5YzAzZWIyOTZjY2RhMzQzMWQ2ZGE3NWU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.3464fOQBk978Wiv7e443DtmbUqy1BCPrb1_SDUGU95U",
+    image: "SupaCarr.png",
     tags: [
       "Next.js",
       "Tailwind CSS",
@@ -96,8 +93,7 @@ export const projects = [
     date: "Oct 2023 - Nov 2023",
     description:
       "Our Food Ordering Platform is a robust web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js), enhanced with Cloudinary for image storage, Postman for API testing, and Axios for HTTP requests. It offers a seamless user experience with secure JWT-based authentication. Place & track your order and manage menu items.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/282665537-c7092421-ad7a-4c0a-8231-0ca19893cca2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDM3NTAsIm5iZiI6MTcxODIwMzQ1MCwicGF0aCI6Ii8xMjY5NTY4MzQvMjgyNjY1NTM3LWM3MDkyNDIxLWFkN2EtNGMwYS04MjMxLTBjYTE5ODkzY2NhMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNDQ0MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNzMyYmQxOWNkYTEzMTBkZjhlYjc5MzM0Y2JiOGQ0YjFlNTgyZjhlYmQ4M2UyZTVlMzFiM2Q0OTc4OGQ4ZGM0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.U1_f4RGdikyagFp1pTvdfZZjJbJQKji4I1ivqjgBvXM",
+    image: "Vyanjan.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "MERN",
     github: "https://github.com/pradyotsrivastava/Vyanjan",
@@ -110,8 +106,7 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:
       "A social media platform built using Next.js, TypeScript & Tailwind. Designed to mimic the core functionalities of Twitter, allowing users to create accounts, post and like tweets, follow other users, and engage with content in real-time. With a responsive, modern UI and efficient database management through Prisma offers a dynamic user experience.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/303326036-fa98c4be-11ca-4128-a6d4-7f2851a36b12.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDM5OTEsIm5iZiI6MTcxODIwMzY5MSwicGF0aCI6Ii8xMjY5NTY4MzQvMzAzMzI2MDM2LWZhOThjNGJlLTExY2EtNDEyOC1hNmQ0LTdmMjg1MWEzNmIxMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNDQ4MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lOTE0NWE1ZjVmYjFkNTBkYjhkMTA0ODYwNDk2MGZkNTMyNWUxOWY2MzhjZTU0NzMxYjZiYzI3NjgxODQzNzRlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.6E2rXEtek5dAbYD9OZR08PbUQjwCtWagjqcEUWOltpM",
+    image: "glitter.png",
     tags: [
       "Next.js",
       "Tailwind CSS",
@@ -150,8 +145,7 @@ export const projects = [
     date: "Jul 2021",
     description:
       "A React-based application that replicates the NetFlix's interface and functionality. Utilizing the TMDB API and Axios for seamless data fetching, users can browse a vast library of movies and TV shows, complete with detailed information pages. The responsive design ensures compatibility across device with enhanced user experience.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/293495433-a7b23499-9ac0-4e22-b836-1ac7271df52b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDQ0MDgsIm5iZiI6MTcxODIwNDEwOCwicGF0aCI6Ii8xMjY5NTY4MzQvMjkzNDk1NDMzLWE3YjIzNDk5LTlhYzAtNGUyMi1iODM2LTFhYzcyNzFkZjUyYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNDU1MDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZDMyNDEyMmQ0NDBjOTFmYjJhZmE3OWI3ZjM2NGM5NTExNjg4YzQxZTgyZGI5NjkzZWMxYTY3ZDQyZWRiOGI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.2-4UgT7WIUYCkapxLLcImBBiY0YGTJVBwSval3lPviM",
+    image: "netflix-react.png",
     tags: ["React Js", "Axios", "API Integration"],
     category: "React",
     github: "https://github.com/pradyotsrivastava/Netflix-React-Clone",
@@ -164,8 +158,7 @@ export const projects = [
     date: "Jul 2021",
     description:
       "HTML-CSS & JavaScript based application that replicates the NetFlix's interface and functionality. Utilizing the TMDB API and JavaScript for seamless data fetching, users can browse a vast library of movies & TV shows, complete with detailed information pages. The responsive design ensures compatibility across device with enhanced user experience.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/293495406-31bd3482-2c5b-437c-aa6c-a83165422380.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDQ0MDgsIm5iZiI6MTcxODIwNDEwOCwicGF0aCI6Ii8xMjY5NTY4MzQvMjkzNDk1NDA2LTMxYmQzNDgyLTJjNWItNDM3Yy1hYTZjLWE4MzE2NTQyMjM4MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNDU1MDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZmZlYjZhNzM4OWRkMzYyZjc3Zjg2NTdmOWE2YTVkYTkyODBiMjQwMjIyY2RlYTUyYmI3NmE2MWUzYzYyM2ZmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.DG15FCGi1W2BXOTpx6kWIonw2PW9vLcHKJk8Q-WTkmc",
+    image: "netflix-html.png",
     tags: ["HTML", "CSS", "JavaScript", "Axios", "API Integration"],
     category: "Mini",
     github: "https://github.com/pradyotsrivastava/NetFlix-clone",
@@ -177,8 +170,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "A productivity tool built with React, designed to help users prioritize tasks effectively. Inspired by the Eisenhower Matrix, the app categorizes tasks into four quadrants based on their urgency and importance. With a simple and intuitive interface, users can easily add, organize and manage their tasks. And also mark it as complete once its done.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/307072275-05cbe68c-ab2a-4082-bed4-16bdb4530bdb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDQ5NDAsIm5iZiI6MTcxODIwNDY0MCwicGF0aCI6Ii8xMjY5NTY4MzQvMzA3MDcyMjc1LTA1Y2JlNjhjLWFiMmEtNDA4Mi1iZWQ0LTE2YmRiNDUzMGJkYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNTA0MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNDNlODRhNzU5YmQzYzI0ODRhYTZlNGE2OWI0ODZlNjhhNzc5YjhkYWQ4Y2M0MTgwYjUxNWY4NWMyMDY3NTZjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.eC4gD4YYv79Hq9dl3IU5UKktPUjAVKjEx_O59P_WjJw",
+    image: "matrix.png",
     tags: ["React", "JavaScript", "Front-end"],
     category: "React",
     github: "https://github.com/pradyotsrivastava/To-Do-List",
@@ -217,8 +209,7 @@ export const projects = [
     date: "Dec 2021 - Apr 2022",
     description:
       "Engineered a patient-centric healthcare system, facilitating seamless access to hospitals, facilities, and doctors for those in need. Integrated a robust fundraising feature to support medical expenses. Demonstrated commitment to leveraging technology for compassionate and accessible healthcare solutions.",
-    image:
-      "https://private-user-images.githubusercontent.com/126956834/282666258-3f11d4c4-4f42-4968-b933-fe56c4a8ec9c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTgyMDUwNTAsIm5iZiI6MTcxODIwNDc1MCwicGF0aCI6Ii8xMjY5NTY4MzQvMjgyNjY2MjU4LTNmMTFkNGM0LTRmNDItNDk2OC1iOTMzLWZlNTZjNGE4ZWM5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYxMlQxNTA1NTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iOTcxOTU0YWYxMDJlMTE5OWRkOTRlYTJjNmU0MTc2NjllZWNlMzVmOTBkOWI5MDE4NzIzOGNmMWFhYmJlNzgyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.4VrgLcYeQXGU2KN31iD1Ziva94FzTASzI6lC8Ca4AmE",
+    image: "nhw.png",
     tags: ["HTML", "CSS", "Bootstrap", "Php", "Django"],
     category: "Major",
     github: "https://github.com/pradyotsrivastava/FinalYearProject",
