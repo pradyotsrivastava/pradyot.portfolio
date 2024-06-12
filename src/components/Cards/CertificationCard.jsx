@@ -139,40 +139,40 @@ const Skill = styled.div`
   }
 `;
 
-const ExperienceCard = ({ experience }) => {
+const CertificationCard = ({ certification }) => {
   return (
     <Card>
       <Top>
-        <Image src={experience.img} />
+        <Image src={certification.img} />
         <Body>
-          <Role>{experience.role}</Role>
-          <Company>{experience.company}</Company>
-          <Date>{experience.date}</Date>
+          <Role>{certification.role}</Role>
+          <Company>{certification.company}</Company>
+          <Date>{certification.date}</Date>
         </Body>
-        {experience.doc && (
-          <a href={experience.doc} target="new">
-            <Document src={experience.cert} />
+        {certification.doc && (
+          <a href={certification.doc} target="new">
+            <Document src={certification.cert} />
           </a>
         )}
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience?.desc}</Span>}
-        {experience?.skills && (
+        {certification?.desc && <Span>{certification?.desc}</Span>}
+        {/* {certification?.skills && (
           <>
             <br />
             <Skills>
               <b>Skills:</b>
               <ItemWrapper>
-                {experience?.skills?.map((skill, index) => (
+                {certification?.skills?.map((skill, index) => (
                   <Skill>• {skill}</Skill>
                 ))}
               </ItemWrapper>
             </Skills>
           </>
-        )}
+        )} */}
       </Description>
     </Card>
   );
 };
 
-export default ExperienceCard;
+export default CertificationCard;

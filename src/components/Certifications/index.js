@@ -6,8 +6,8 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import ExperienceCard from "../Cards/ExperienceCard";
-import { experiences } from "./data";
+import CertificationCard from "../Cards/CertificationCard";
+import { certification } from "./data";
 
 const Container = styled.div`
   display: flex;
@@ -78,25 +78,25 @@ const TimelineSection = styled.div`
 
 const index = () => {
   return (
-    <Container id="experience">
+    <Container id="certification">
       <Wrapper>
-        <Title>Experience</Title>
+        <Title>Certifications</Title>
         <Desc>
-          My work experience as a software engineer and working on different
-          companies and projects.
+          Here are some of the certificates that <br />I acquired during 4 years
+          of graduation.
         </Desc>
         <TimelineSection>
           <Timeline>
-            {experiences.map((experience, index) => (
+            {certification.map((certification, index) => (
               <TimelineItem>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index !== experiences.length - 1 && (
+                  {index !== certification.length - 1 && (
                     <TimelineConnector style={{ background: "#854CE6" }} />
                   )}
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <ExperienceCard experience={experience} />
+                  <CertificationCard certification={certification} />
                 </TimelineContent>
               </TimelineItem>
             ))}
