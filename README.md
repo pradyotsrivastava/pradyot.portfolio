@@ -1,3 +1,8 @@
+# About
+
+My portfolio website, built with React, showcases my projects, skills, certifications and experiences in full-stack development. Featuring project highlights, skills overview, and contact information, it offers a seamless browsing experience across devices. Explore my work, learn about my skills, and reach out for collaborations or inquiries.
+
+
 ![About](https://github.com/pradyotsrivastava/pradyot.portfolio/assets/126956834/809957e3-697e-4f2b-a2c2-211d3dfe1ba7)
 ![Skill 1](https://github.com/pradyotsrivastava/pradyot.portfolio/assets/126956834/32c9cce6-b35a-404d-9d87-c8af6bb90e30)
 ![Skill 2](https://github.com/pradyotsrivastava/pradyot.portfolio/assets/126956834/fc98f5c1-0e88-4b87-afc2-4dfcd8858708)
