@@ -1,13 +1,13 @@
-import React from "react";
-import styled from "styled-components";
 import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import { education } from "./data";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import React from "react";
+import styled from "styled-components";
 import EducationCard from "../Cards/EducationCard";
+import { education } from "./data";
 
 const Container = styled.div`
   display: flex;
@@ -66,12 +66,18 @@ const TimelineSection = styled.div`
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
   gap: 12px;
   @media (max-width: 660px) {
     align-items: end;
   }
+`;
+
+const StyledTimelineItem = styled(TimelineItem)`
+  display: flex;
+  flex-direction: ${(props) => (props.isEven ? "row-reverse" : "row")};
+  gap: 10px;
 `;
 
 const index = () => {
@@ -80,23 +86,25 @@ const index = () => {
       <Wrapper>
         <Title>Education</Title>
         <Desc>
-          My education has been a journey of self-discovery and growth. My
-          educational details are as follows.
+          Building a strong academic foundation that supports my technical
+          journey and fuels my growth as a developer.
         </Desc>
         <TimelineSection>
           <Timeline>
             {education.map((education, index) => (
-              <TimelineItem>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <EducationCard education={education} />
-                </TimelineContent>
-                <TimelineSeparator>
-                  <TimelineDot variant="outlined" color="secondary" />
-                  {index !== education.length && (
-                    <TimelineConnector style={{ background: "#854CE6" }} />
-                  )}
-                </TimelineSeparator>
-              </TimelineItem>
+              <StyledTimelineItem key={index} isEven={index % 2 === 0}>
+                <TimelineItem>
+                  <TimelineContent sx={{ py: "12px", px: 2 }}>
+                    <EducationCard education={education} />
+                  </TimelineContent>
+                  <TimelineSeparator>
+                    <TimelineDot variant="outlined" color="secondary" />
+                    {index !== education.length && (
+                      <TimelineConnector style={{ background: "#854CE6" }} />
+                    )}
+                  </TimelineSeparator>
+                </TimelineItem>
+              </StyledTimelineItem>
             ))}
           </Timeline>
         </TimelineSection>

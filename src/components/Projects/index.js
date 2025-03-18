@@ -1,30 +1,28 @@
-import React from "react";
-import { useState } from "react";
-import {
-  Container,
-  Wrapper,
-  Title,
-  Desc,
-  CardContainer,
-  ToggleButtonGroup,
-  ToggleButton,
-  Divider,
-} from "./ProjectsStyle";
+import React, { useState } from "react";
 import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "./data";
+import {
+  CardContainer,
+  Container,
+  Desc,
+  Divider,
+  Title,
+  ToggleButton,
+  ToggleButtonGroup,
+  Wrapper,
+} from "./ProjectsStyle";
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
-  const toggleOptions = ["NEXT", "MERN", "React", "Mini", "Major"];
+  const toggleOptions = ["LIVE", "IN PROGRESS", "NEXT", "MERN", "REACT"];
 
   return (
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. <br />
-          From MERN Stack to Next.
-          <br />
+          A collection of projects that reflect my passion for building
+          impactful and innovative solutions.
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
@@ -60,7 +58,7 @@ const Projects = ({ openModal, setOpenModal }) => {
               />
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
                 project={project}

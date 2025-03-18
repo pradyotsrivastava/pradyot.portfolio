@@ -1,20 +1,17 @@
-import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from "./utils/Themes.js";
-import Navbar from "./components/Navbar";
-import "./App.css";
+import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import HeroSection from "./components/HeroSection";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
+import styled, { ThemeProvider } from "styled-components";
+import "./App.css";
 import Certifications from "./components/Certifications";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
 import ProjectDetails from "./components/ProjectDetails";
-import styled from "styled-components";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import { darkTheme, lightTheme } from "./utils/Themes.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -54,7 +51,7 @@ function App() {
           <Wrapper>
             <Certifications />
             <Education />
-            <Contact />
+            {/* <Contact /> */}
           </Wrapper>
           <Footer />
           {openModal.state && (

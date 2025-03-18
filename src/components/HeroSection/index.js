@@ -38,6 +38,10 @@ const HeroSection = () => {
                     strings: Bio.roles,
                     autoStart: true,
                     loop: true,
+                    typeSpeed: 150,
+                    deleteSpeed: 10,
+                    pauseSpeed: 5,
+                    delay: 20,
                   }}
                 />
               </Span>

@@ -14,7 +14,7 @@ import {
   MobileLink,
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaLinkedinIn, FaGithub } from "react-icons/fa"; // Add FaGithub for GitHub icon
 import { Bio } from "../../data/constants";
 import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
@@ -53,11 +53,16 @@ const Navbar = () => {
           <NavLink href="#certificates">Certifications</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
+
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
-            GitHub
+            <FaGithub size="1.5rem" /> {/* GitHub Icon */}
+          </GitHubButton>
+          <GitHubButton href={Bio.linkedin} target="_blank">
+            <FaLinkedinIn size="1.5rem" />
           </GitHubButton>
         </ButtonContainer>
+
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
             <MobileLink
@@ -118,7 +123,7 @@ const Navbar = () => {
               href={Bio.github}
               target="_blank"
             >
-              GitHub
+              <FaGithub size="1.5rem" /> {/* GitHub Icon */}
             </GitHubButton>
           </MobileMenu>
         )}

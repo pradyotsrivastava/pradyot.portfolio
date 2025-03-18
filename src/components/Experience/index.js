@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "styled-components";
 import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import React from "react";
+import styled from "styled-components";
 import ExperienceCard from "../Cards/ExperienceCard";
 import { experiences } from "./data";
 
@@ -67,13 +67,19 @@ const Desc = styled.div`
 
 const TimelineSection = styled.div`
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
   gap: 12px;
+`;
+
+const StyledTimelineItem = styled(TimelineItem)`
+  display: flex;
+  flex-direction: ${(props) => (props.isEven ? "row-reverse" : "row")};
+  gap: 10px;
 `;
 
 const index = () => {
@@ -82,13 +88,13 @@ const index = () => {
       <Wrapper>
         <Title>Experience</Title>
         <Desc>
-          My work experience as a software engineer and working on different
-          companies and projects.
+          A journey of continuous growth, where I’ve honed my skills through
+          real-world projects and collaborations.
         </Desc>
         <TimelineSection>
           <Timeline>
             {experiences.map((experience, index) => (
-              <TimelineItem>
+              <StyledTimelineItem key={index} isEven={index % 2 === 0}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length - 1 && (
@@ -98,7 +104,7 @@ const index = () => {
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <ExperienceCard experience={experience} />
                 </TimelineContent>
-              </TimelineItem>
+              </StyledTimelineItem>
             ))}
           </Timeline>
         </TimelineSection>
