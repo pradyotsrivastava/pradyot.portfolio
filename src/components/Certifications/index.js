@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "styled-components";
 import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import React from "react";
+import styled from "styled-components";
 import CertificationCard from "../Cards/CertificationCard";
 import { certification } from "./data";
 
@@ -71,9 +71,14 @@ const TimelineSection = styled.div`
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
   gap: 12px;
+`;
+
+const StyledTimelineItem = styled(TimelineItem)`
+  display: flex;
+  flex-direction: ${(props) => (props.isEven ? "row-reverse" : "row")};
 `;
 
 const index = () => {
@@ -82,23 +87,25 @@ const index = () => {
       <Wrapper>
         <Title>Certifications</Title>
         <Desc>
-          Here are some of the certificates that <br />I acquired during 4 years
-          of graduation.
+          A commitment to continuous learning, showcasing my dedication to
+          mastering industry-recognized skills.
         </Desc>
         <TimelineSection>
           <Timeline>
             {certification.map((certification, index) => (
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineDot variant="outlined" color="secondary" />
-                  {index !== certification.length - 1 && (
-                    <TimelineConnector style={{ background: "#854CE6" }} />
-                  )}
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <CertificationCard certification={certification} />
-                </TimelineContent>
-              </TimelineItem>
+              <StyledTimelineItem key={index} isEven={index % 2 === 0}>
+                <TimelineItem>
+                  <TimelineSeparator>
+                    <TimelineDot variant="outlined" color="secondary" />
+                    {index !== certification.length - 1 && (
+                      <TimelineConnector style={{ background: "#854CE6" }} />
+                    )}
+                  </TimelineSeparator>
+                  <TimelineContent sx={{ py: "12px", px: 2 }}>
+                    <CertificationCard certification={certification} />
+                  </TimelineContent>
+                </TimelineItem>
+              </StyledTimelineItem>
             ))}
           </Timeline>
         </TimelineSection>
