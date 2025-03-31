@@ -5,7 +5,7 @@ export const experiences = [
     role: "Full Stack Developer",
     company: "InfoTech Edge",
     date: "Dec 2024 - Present",
-    desc: "At InfoTech Edge, I am leading the development of scalable web applications, including a Content & Learning Management System and a Job Portal. I am responsible for the entire software development lifecycle, from initial design to deployment, ensuring high-performance, responsive, and secure applications. I implement full-stack solutions using modern technologies like Next.js, MongoDB, and Node.js while focusing on building maintainable code and optimizing user experience. I also manage version control through GitHub and ensure robust deployment pipelines.",
+    desc: "At InfoTech Edge, I am leading the development of scalable web applications, including a Job Portal and a Content Management System. I Leveraged RTK Query and GraphQL with Apollo Client in the Job Portal web app to optimize data fetching and state management, reducing API latency and boosting client-server efficiency by 35%. Integrated an advanced rich text editor into the Learning Management System, while implementing SEO optimization and server-side rendering using Next.js and TypeScript, resulting in a 20% increase in organic traffic. Designed and optimized custom microservices with Node.js and Express, integrated JWT for secure user authentication, and implemented rate limiting and API throttling, which enhanced system stability and boosted user satisfaction, ultimately leading to a 40% revenue growth.",
     skills: [
       "Next",
       "Tailwind CSS",
@@ -40,7 +40,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://media.licdn.com/dms/image/D4D0BAQG-GHUu-09EjA/company-logo_200_200/0/1691427837439/focus_realm_logo?e=2147483647&v=beta&t=Lb5TzpayZrWtu0GordOUlHGtKtzoyS1y8SOoiX1eJXo",
-    role: "Junior Full Stack Developer",
+    role: "Full Stack Developer Intern",
     company: "Focus Realm",
     date: "Jan 2024 - Mar 2024",
     desc: "As a Junior Full Stack Developer at Focus Realm, I contributed to the development of the Productivity & Wellness Management platform. I worked with React.js and Next.js to build responsive UIs while leveraging Express.js and MongoDB to create a scalable backend. I collaborated closely with design and product teams to ensure a seamless user experience and delivered features that supported the overall functionality of the platform, enhancing user engagement and application efficiency.",
