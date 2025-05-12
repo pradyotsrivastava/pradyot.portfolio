@@ -1,21 +1,21 @@
 export const projects = [
-  {
-    id: 0,
-    title: "MewTube",
-    date: "Mar 2025 - Present",
-    description:
-      "MewTube is an advanced video streaming platform featuring real-time video sharing, live streaming, and adaptive streaming technologies. It offers personalized video recommendations powered by machine learning algorithms, enabling seamless media consumption. The platform supports multiple video formats, dynamic user interfaces, and real-time user feedback for an interactive viewing experience. Integrating real-time communication features allows users to engage via comments and live chat during streams.",
-    image:
-      "https://9to5google.com/wp-content/uploads/sites/4/2022/09/youtube-homepage-redesign-desktop-1.jpg?quality=82&strip=all",
-    tags: ["Next Js", "TypeScript", "Tailwind CSS", "Open-AI", "Redux"],
-    category: "IN PROGRESS",
-    github: "https://github.com/pradyotsrivastava/next-google-docs",
-    // webapp: "https://github.com/Chit-Chat-SocialMedia",
-  },
+  // {
+  //   id: 0,
+  //   title: "MewTube",
+  //   date: "Mar 2025 - Present",
+  //   description:
+  //     "MewTube is an advanced video streaming platform featuring real-time video sharing, live streaming, and adaptive streaming technologies. It offers personalized video recommendations powered by machine learning algorithms, enabling seamless media consumption. The platform supports multiple video formats, dynamic user interfaces, and real-time user feedback for an interactive viewing experience. Integrating real-time communication features allows users to engage via comments and live chat during streams.",
+  //   image:
+  //     "https://9to5google.com/wp-content/uploads/sites/4/2022/09/youtube-homepage-redesign-desktop-1.jpg?quality=82&strip=all",
+  //   tags: ["Next Js", "TypeScript", "Tailwind CSS", "Open-AI", "Redux"],
+  //   category: "IN PROGRESS",
+  //   github: "https://github.com/pradyotsrivastava/next-google-docs",
+  //   webapp: "https://github.com/pradyotsrivastava/next-google-docs",
+  // },
   {
     id: 1,
     title: "Doodle Moxx",
-    date: "Mar 2025 - Mar 2025",
+    date: "Mar 2025 - May 2025",
     description:
       "Doodle Moxx is a real-time collaborative document editor, offering shared editing with version control and live synchronization for teams working on documents. The platform supports commenting, cloud storage, and advanced document management with features like auto-save and secure sharing. Users can track changes with real-time collaboration tools, ensuring efficient teamwork across geographically dispersed teams.",
     image:
@@ -31,7 +31,7 @@ export const projects = [
     ],
     category: "NEXT",
     github: "https://github.com/pradyotsrivastava/next-google-docs",
-    // webapp: "https://github.com/Chit-Chat-SocialMedia",
+    webapp: "https://github.com/pradyotsrivastava/next-google-docs",
   },
 
   {
@@ -53,7 +53,7 @@ export const projects = [
     ],
     category: "MERN",
     github: "https://github.com/pradyotsrivastava/Chit-Chat-SocialMedia",
-    // webapp: "https://github.com/Chit-Chat-SocialMedia",
+    webapp: "https://github.com/pradyotsrivastava/Chit-Chat-SocialMedia",
   },
   {
     id: 3,
@@ -64,10 +64,11 @@ export const projects = [
     image: "Sigma.png",
 
     tags: ["Next Js", "TypeScript", "Tailwind CSS", "Fabric.js", "Liveblocks"],
-    category: "LIVE",
-    github: "https://github.com/pradyotsrivastava/sigma-next-figma",
-    webapp: "https://sigma-next-figma.vercel.app/",
+    category: "NEXT",
+    github: "https://sigma-next-figma.vercel.app/",
+    webapp: "https://github.com/pradyotsrivastava/sigma-next-figma",
   },
+
   {
     id: 4,
     title: "Shoppers : Ecom Store",
@@ -85,9 +86,9 @@ export const projects = [
       "Redux",
       "Postman",
     ],
-    category: "LIVE",
-    github: "https://github.com/pradyotsrivastava/shoppers-mern",
-    webapp: "https://shoppers-mern-ecom.vercel.app/",
+    category: "MERN",
+    github: "https://shoppers-mern-ecom.vercel.app/",
+    webapp: "https://github.com/pradyotsrivastava/shoppers-mern",
     // member: [
     //   {
     //     name: "Pradyot Srivastava",
@@ -103,6 +104,35 @@ export const projects = [
     //   },
     // ],
   },
+
+  {
+    id: 4,
+    title: "Quiz Application",
+    date: "Jul 2024 - Aug 2024",
+    description:
+      "Our Ecommerce Store is a feature-rich platform built on the MERN stack, with Tailwind CSS for styling, Redux for state management, Cloudinary for image storage, and Postman for API testing. Offering seamless user authentication, product management and shopping cart functionality, our platform provides an intuitive and efficient shopping experience.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxvrX4tr-zKaioG3Tf5r6Ypu9aQ9kw7EY0PQ&s",
+    tags: ["Spring Boot", "PostgreSQL", "Java", "Postman"],
+    category: "SPRING BOOT",
+    github: "https://github.com/pradyotsrivastava/quiz-app-spring-postgresql",
+    webapp: "https://github.com/pradyotsrivastava/quiz-app-spring-postgresql",
+    // member: [
+    //   {
+    //     name: "Pradyot Srivastava",
+    //     img: "https://avatars.githubusercontent.com/u/126956834?v=4",
+    //     linkedin: "https://www.linkedin.com/in/pradyotsrivastava/",
+    //     github: "https://github.com/pradyotsrivastava/",
+    //   },
+    //   {
+    //     name: "Pradumn Srivastava",
+    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+    //     linkedin: "https://www.linkedin.com/in/pradumnsrivastava/",
+    //     github: "https://github.com/pradumnsrivastava",
+    //   },
+    // ],
+  },
+
   {
     id: 5,
     title: "Vyanjan : Food Ordering",
@@ -113,7 +143,7 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "MERN",
     github: "https://github.com/pradyotsrivastava/Vyanjan",
-    webapp: "https://vyanjan-plum.vercel.app/",
+    webapp: "https://github.com/pradyotsrivastava/Vyanjan",
   },
   {
     id: 6,
@@ -129,9 +159,9 @@ export const projects = [
       "Rapid API",
       "API Integration",
     ],
-    category: "LIVE",
+    category: "NEXT",
     github: "https://github.com/pradyotsrivastava/supacarr-nextjs-tailwind",
-    webapp: "https://supacarr-nextjs-tailwind.vercel.app/",
+    webapp: "https://github.com/pradyotsrivastava/supacarr-nextjs-tailwind",
   },
   {
     id: 7,
@@ -150,7 +180,7 @@ export const projects = [
     ],
     category: "NEXT",
     github: "https://github.com/pradyotsrivastava/twitter_clone",
-    // webapp: "https://twitter_clone.netlify.app/",
+    webapp: "https://github.com/pradyotsrivastava/twitter_clone",
   },
   // {
   //   id: 6,
@@ -182,7 +212,7 @@ export const projects = [
     tags: ["React Js", "Axios", "API Integration"],
     category: "REACT",
     github: "https://github.com/pradyotsrivastava/Netflix-React-Clone",
-    // webapp: "https://github.com/pradyotsrivastava/Netflix-React-Clone",
+    webapp: "https://github.com/pradyotsrivastava/Netflix-React-Clone",
   },
 
   {
@@ -195,7 +225,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Axios", "API Integration"],
     category: "REACT",
     github: "https://github.com/pradyotsrivastava/NetFlix-clone",
-    // webapp: "https://github.com/pradyotsrivastava/NetFlix-clone",
+    webapp: "https://github.com/pradyotsrivastava/NetFlix-clone",
   },
   {
     id: 10,
@@ -207,6 +237,6 @@ export const projects = [
     tags: ["React", "JavaScript", "Front-end"],
     category: "REACT",
     github: "https://github.com/pradyotsrivastava/To-Do-List",
-    // webapp: "https://github.com/pradyotsrivastava/To-Do-List",
+    webapp: "https://github.com/pradyotsrivastava/To-Do-List",
   },
 ];

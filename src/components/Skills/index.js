@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { skills } from "./data";
+import { skills } from "../../data/skills";
 
 const Container = styled.div`
   display: flex;
@@ -52,7 +52,7 @@ const SkillsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  gap: 30px;
+  gap: 48px;
   justify-content: center;
 `;
 
