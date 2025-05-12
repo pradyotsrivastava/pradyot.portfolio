@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProjectCard from "../Cards/ProjectCards";
-import { projects } from "./data";
+import { projects } from "../../data/projects";
 import {
   CardContainer,
   Container,
@@ -14,7 +14,7 @@ import {
 
 const Projects = ({ openModal, setOpenModal }) => {
   const [toggle, setToggle] = useState("all");
-  const toggleOptions = ["LIVE", "IN PROGRESS", "NEXT", "MERN", "REACT"];
+  const toggleOptions = ["NEXT", "SPRING BOOT", "MERN", "REACT"];
 
   return (
     <Container id="projects">
