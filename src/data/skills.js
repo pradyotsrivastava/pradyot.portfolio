@@ -151,6 +151,11 @@ export const skills = [
     title: "Dev Tools",
     skills: [
       {
+        name: "AWS",
+        image:
+          "https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png",
+      },
+      {
         name: "Docker",
         image:
           "https://th.bing.com/th/id/OIP.j5YQgrLzNFDMtw6HkGnOFgHaEK?rs=1&pid=ImgDetMain",
@@ -175,10 +180,20 @@ export const skills = [
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
-        name: "Maven",
+        name: "Vercel",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhshCy5iK9OgUX0ea-wB9Yw-DuUR8BfPkHOA&s",
+          "https://images.ctfassets.net/c63hsprlvlya/1zUViz84vavghFDIK1qmlm/8be7ec39bf58472414e212d7547e7f8b/Vercel__Zeit_.jpeg",
       },
+      {
+        name: "Netlify",
+        image:
+          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
       {
         name: "Postman",
         image:
@@ -189,30 +204,20 @@ export const skills = [
         image:
           "https://files.speakerdeck.com/presentations/7f3a63c8ecbb4bd98f4878fab2e07b09/slide_0.jpg",
       },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
+      {
+        name: "Maven",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhshCy5iK9OgUX0ea-wB9Yw-DuUR8BfPkHOA&s",
+      },
       {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
-        name: "IntelliJ",
+        name: "IntelliJ IDEA",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Vercel",
-        image:
-          "https://images.ctfassets.net/c63hsprlvlya/1zUViz84vavghFDIK1qmlm/8be7ec39bf58472414e212d7547e7f8b/Vercel__Zeit_.jpeg",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
       },
       {
         name: "Adobe XD",

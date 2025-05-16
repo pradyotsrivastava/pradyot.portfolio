@@ -110,7 +110,7 @@ export const projects = [
     title: "Quiz Application",
     date: "Jul 2024 - Aug 2024",
     description:
-      "Our Ecommerce Store is a feature-rich platform built on the MERN stack, with Tailwind CSS for styling, Redux for state management, Cloudinary for image storage, and Postman for API testing. Offering seamless user authentication, product management and shopping cart functionality, our platform provides an intuitive and efficient shopping experience.",
+      "About Quiz Application built with Java, Spring Boot, Spring MVC, Spring Data JPA, Hibernate, and PostgreSQL. It provides RESTful APIs for managing quizzes, including creating, updating, and retrieving quiz questions, submitting answers, and tracking scores. The project uses Lombok to reduce boilerplate code and follows a clean, modular structure.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxvrX4tr-zKaioG3Tf5r6Ypu9aQ9kw7EY0PQ&s",
     tags: ["Spring Boot", "PostgreSQL", "Java", "Postman"],
@@ -131,6 +131,20 @@ export const projects = [
     //     github: "https://github.com/pradumnsrivastava",
     //   },
     // ],
+  },
+
+  {
+    id: 4,
+    title: "Job Portal",
+    date: "Sep 2024 - Oct 2024",
+    description:
+      "Job Portal Application developed using Java, Spring Boot, Spring MVC, and MongoDB. It provides RESTful APIs for job listings, applications, and user management. The project is built with Maven, uses Swagger-UI , and follows a clean, modular architecture. It enables functionalities like posting jobs, applying for jobs, and managing user profiles.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-SaqEI4tu6oRBSJcflTCKBdpXBkq3wWE6A&s",
+    tags: ["Spring Boot", "PostgreSQL", "Java", "Postman"],
+    category: "SPRING BOOT",
+    github: "https://github.com/pradyotsrivastava/job-portal-spring-boot-mongo",
+    webapp: "https://github.com/pradyotsrivastava/job-portal-spring-boot-mongo",
   },
 
   {
