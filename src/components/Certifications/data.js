@@ -1,6 +1,18 @@
 export const certification = [
   {
     id: 0,
+    img: "https://www.edureka.co/blog/wp-content/uploads/2018/03/Online-Courses-Edureka.png",
+    role: " AWS Certified Cloud Practitioner",
+    company: "Edureka",
+    date: "May 2025 - Jun 2024",
+    desc: "Gained foundational knowledge of cloud computing with a focus on AWS services, architecture, and security. Explored core AWS offerings such as compute, storage, networking, and billing. Developed an understanding of cloud best practices, cost optimization strategies, and the AWS shared responsibility model, preparing for real-world cloud adoption scenarios",
+    skills: [],
+    doc: "https://pwskills.com/learn/certificate/4939f882-8cf7-4130-8220-ecf2e9dc54db/",
+
+    cert: "https://cdn.create.vista.com/downloads/37a1c116-6794-4ba6-91f0-1405596e8d69_360.jpeg",
+  },
+  {
+    id: 0,
     img: "https://ugc.production.linktr.ee/Z9pgfYqR6OBwCdqpf4WY_image",
     role: "Java with DSA & System Design",
     company: "PW Skills",

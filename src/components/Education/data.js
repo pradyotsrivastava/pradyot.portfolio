@@ -10,7 +10,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Maharishi_Group_of_Schools.jpg",
+    img: "https://www.schoolmykids.com/web-images/school/maharishi-vidya-mandir-public-school-yamuna-nagar.png",
     school: "Maharishi Vidya Mandir, Prayagraj",
     date: "Apr 2018 - Apr 2019",
     grade: "6.3 CGPA",
@@ -19,9 +19,9 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Maharishi_Group_of_Schools.jpg",
+    img: "https://www.schoolmykids.com/web-images/school/maharishi-vidya-mandir-public-school-yamuna-nagar.png",
     school: "Maharishi Vidya Mandir, Prayagraj",
-    date: "Apr 2016 - Apr 2019",
+    date: "Apr 2016 - Apr 2017",
     grade: "8.8 CGPA",
     desc: "I completed my class 10 education at Maharishi Vidya Mandir, Prayagraj.",
     degree: "CBSE(X), Science with Computer Science",

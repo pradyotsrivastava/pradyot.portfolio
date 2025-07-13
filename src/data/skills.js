@@ -130,11 +130,11 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyft7BlH2ITx3EAIvVXrV8wrKhWNbPfQVVhg&usqp=CAU",
       },
-      {
-        name: "Python",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
-      },
+      // {
+      //   name: "Python",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+      // },
       {
         name: "HTML",
         image:
@@ -148,7 +148,7 @@ export const skills = [
     ],
   },
   {
-    title: "Dev Tools",
+    title: "Dev-Ops",
     skills: [
       {
         name: "AWS",
@@ -179,16 +179,16 @@ export const skills = [
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
-      {
-        name: "Vercel",
-        image:
-          "https://images.ctfassets.net/c63hsprlvlya/1zUViz84vavghFDIK1qmlm/8be7ec39bf58472414e212d7547e7f8b/Vercel__Zeit_.jpeg",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
+      // {
+      //   name: "Vercel",
+      //   image:
+      //     "https://images.ctfassets.net/c63hsprlvlya/1zUViz84vavghFDIK1qmlm/8be7ec39bf58472414e212d7547e7f8b/Vercel__Zeit_.jpeg",
+      // },
+      // {
+      //   name: "Netlify",
+      //   image:
+      //     "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      // },
     ],
   },
   {
@@ -197,7 +197,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+          "https://images.seeklogo.com/logo-png/44/1/postman-api-platform-logo-png_seeklogo-446859.png",
       },
       {
         name: "JUnit",
@@ -219,10 +219,10 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
       },
-      {
-        name: "Adobe XD",
-        image: "https://i.ytimg.com/vi/kyFjJKj3-vw/maxresdefault.jpg",
-      },
+      // {
+      //   name: "Adobe XD",
+      //   image: "https://i.ytimg.com/vi/kyFjJKj3-vw/maxresdefault.jpg",
+      // },
       {
         name: "Figma",
         image:

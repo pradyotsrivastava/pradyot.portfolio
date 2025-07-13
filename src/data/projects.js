@@ -35,6 +35,28 @@ export const projects = [
   },
 
   {
+    id: 1,
+    title: "SMM Post Management",
+    date: "Jun 2024 - Dec 2024",
+    description:
+      "A real-time social media management platform that enables teams to collaboratively plan, schedule, and auto-publish posts across multiple channels. It features live collaboration, version control, intelligent scheduling, secure sharing, and comment-based workflows — helping distributed teams stay in sync and maximize their social presence efficiently.",
+    image:
+      "https://www.vsourz.com/wp-content/uploads/2022/07/api-gateway-1320x911.jpg",
+    tags: [
+      "React Js",
+      "Node",
+      "Express",
+      "Spring Boot",
+      "Spring MVC",
+      "Microservices",
+      "API Gateway",
+    ],
+    category: "MERN",
+    github: "https://github.com/pradyotsrivastava/social-media-microservices",
+    webapp: "https://github.com/pradyotsrivastava/social-media-microservices",
+  },
+
+  {
     id: 2,
     title: "Chit-Chat",
     date: "May 2024 - Jun 2024",
@@ -107,6 +129,20 @@ export const projects = [
 
   {
     id: 4,
+    title: "Job Portal SDE",
+    date: "Sep 2024 - Oct 2024",
+    description:
+      "Job Portal Application developed using Java, Spring Boot, Spring MVC, and MongoDB. It provides RESTful APIs for job listings, applications, and user management. The project is built with Maven, uses Swagger-UI , and follows a clean, modular architecture. It enables functionalities like posting jobs, applying for jobs, and managing user profiles.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-SaqEI4tu6oRBSJcflTCKBdpXBkq3wWE6A&s",
+    tags: ["Spring Boot", "PostgreSQL", "Java", "Postman"],
+    category: "SPRING BOOT",
+    github: "https://github.com/pradyotsrivastava/job-portal-spring-boot-mongo",
+    webapp: "https://github.com/pradyotsrivastava/job-portal-spring-boot-mongo",
+  },
+
+  {
+    id: 4,
     title: "Quiz Application",
     date: "Jul 2024 - Aug 2024",
     description:
@@ -131,20 +167,6 @@ export const projects = [
     //     github: "https://github.com/pradumnsrivastava",
     //   },
     // ],
-  },
-
-  {
-    id: 4,
-    title: "Job Portal",
-    date: "Sep 2024 - Oct 2024",
-    description:
-      "Job Portal Application developed using Java, Spring Boot, Spring MVC, and MongoDB. It provides RESTful APIs for job listings, applications, and user management. The project is built with Maven, uses Swagger-UI , and follows a clean, modular architecture. It enables functionalities like posting jobs, applying for jobs, and managing user profiles.",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj-SaqEI4tu6oRBSJcflTCKBdpXBkq3wWE6A&s",
-    tags: ["Spring Boot", "PostgreSQL", "Java", "Postman"],
-    category: "SPRING BOOT",
-    github: "https://github.com/pradyotsrivastava/job-portal-spring-boot-mongo",
-    webapp: "https://github.com/pradyotsrivastava/job-portal-spring-boot-mongo",
   },
 
   {
