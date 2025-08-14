@@ -168,7 +168,18 @@ export const projects = [
     //   },
     // ],
   },
-
+  {
+    id: 5,
+    title: "DevConnect",
+    date: "Jun 2025 - Jul 2025",
+    description:
+      "DevConnect is a social networking platform designed specifically for developers to connect, collaborate, and grow together. Built using the MERN stack with Tailwind CSS for styling, Redux for state management, and Cloudinary for image handling. It features user authentication, profile management, post sharing, commenting, and real-time collaboration tools to foster a vibrant dev community.",
+    image: "devconnect.png",
+    tags: ["React", "Express", "Tailwind", "MongoDb", "Node", "Redux"],
+    category: "MERN",
+    github: "https://github.com/pradyotsrivastava/dev-connect",
+    webapp: "https://dev-connect-mern.vercel.app/",
+  },
   {
     id: 5,
     title: "Vyanjan : Food Ordering",
