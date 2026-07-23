@@ -1,36 +1,36 @@
 export const skills = [
   {
-    title: "Programming",
+    title: "Languages",
     skills: [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
         name: "TypeScript",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
         name: "Java",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       },
       {
         name: "Python",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       },
-        {
+      {
         name: "HTML",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       },
       {
         name: "CSS",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
     ],
   },
@@ -40,27 +40,32 @@ export const skills = [
       {
         name: "React.js",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       },
       {
         name: "Next.js",
         image:
-          "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       },
       {
         name: "Redux",
         image:
-          "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       },
       {
         name: "Tailwind CSS",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
         name: "Material UI",
         image:
-          "https://miro.medium.com/v2/resize:fit:493/1*HHGc3cQgpSVes0maUAnYog.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      },
+      {
+        name: "Apollo Client",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
       },
     ],
   },
@@ -70,12 +75,12 @@ export const skills = [
       {
         name: "Node.js",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       },
       {
         name: "Express.js",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
       },
       {
         name: "Spring Boot",
@@ -85,12 +90,12 @@ export const skills = [
       {
         name: "GraphQL",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
       },
       {
         name: "Firebase",
         image:
-          "https://www.gstatic.com/devrel-devsite/prod/v24b9c6b2afabba7cabce38ea39eb836b143c6716ce4ed7ad9b9ce1142f49221f/firebase/images/touchicon-180.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
       },
       {
         name: "Microservices",
@@ -129,7 +134,7 @@ export const skills = [
       {
         name: "AWS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
       },
       {
         name: "Docker",
@@ -144,7 +149,7 @@ export const skills = [
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       },
       {
         name: "Bitbucket",
@@ -154,7 +159,7 @@ export const skills = [
       {
         name: "CI/CD Pipelines",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-plain.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg",
       },
     ],
   },
@@ -168,7 +173,7 @@ export const skills = [
       {
         name: "Generative AI",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
       },
       {
         name: "Prompt Engineering",
@@ -185,25 +190,50 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Soft Skills",
-    skills: [
-      {
-        name: "Problem Solving",
-        image: "https://cdn-icons-png.flaticon.com/512/5431/5431355.png",
-      },
-      {
-        name: "Communication Skills",
-        image: "https://cdn-icons-png.flaticon.com/512/1256/1256650.png",
-      },
-      {
-        name: "Adaptability",
-        image: "https://cdn-icons-png.flaticon.com/512/3588/3588658.png",
-      },
-      {
-        name: "Attention to Detail",
-        image: "https://cdn-icons-png.flaticon.com/512/1828/1828817.png",
-      },
-    ],
-  },
+  // {
+  //   title: "Soft Skills",
+  //   skills: [
+  //     {
+  //       name: "Problem Solving",
+  //       image: "https://cdn-icons-png.flaticon.com/512/5431/5431355.png",
+  //     },
+  //     {
+  //       name: "Communication Skills",
+  //       image: "https://cdn-icons-png.flaticon.com/512/1256/1256650.png",
+  //     },
+  //     {
+  //       name: "Adaptability",
+  //       image: "https://cdn-icons-png.flaticon.com/512/3588/3588658.png",
+  //     },
+  //     {
+  //       name: "Attention to Detail",
+  //       image: "https://cdn-icons-png.flaticon.com/512/1828/1828817.png",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Platform",
+  //   skills: [
+  //     {
+  //       name: "Postman",
+  //       image:
+  //         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+  //     },
+  //     {
+  //       name: "VS Code",
+  //       image:
+  //         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+  //     },
+  //     {
+  //       name: "IntelliJ IDEA",
+  //       image:
+  //         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
+  //     },
+  //     {
+  //       name: "Figma",
+  //       image:
+  //         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+  //     },
+  //   ],
+  // },
 ];
