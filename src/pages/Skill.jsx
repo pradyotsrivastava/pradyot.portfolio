@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { skills } from "../../data/skills";
+import { skills } from "../data/skills";
 
 const Container = styled.div`
   display: flex;
@@ -25,7 +25,7 @@ const Wrapper = styled.div`
   }
 `;
 
-export const Title = styled.div`
+const Title = styled.div`
   font-size: 42px;
   text-align: center;
   font-weight: 600;
@@ -37,7 +37,7 @@ export const Title = styled.div`
   }
 `;
 
-export const Desc = styled.div`
+const Desc = styled.div`
   font-size: 18px;
   text-align: center;
   max-width: 600px;
@@ -56,38 +56,13 @@ const SkillsContainer = styled.div`
   justify-content: center;
 `;
 
-const Skill = styled.div`
-  width: 100%;
-  max-width: 520px;
-  background: ${({ theme }) => theme.card + 80};
-  border: 0.1px solid #854ce6;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  border-radius: 16px;
-  padding: 18px 36px;
-
-  &:hover {
-    transform: scale(1.05);
-transition: all 0.4s ease-in-out;
-box-shadow:  20px 20px 60px #1F2634,
-filter: brightness(0.1);
-
-
-  @media (max-width: 768px) {
-    max-width: 400px;
-    padding: 10px 36px;
-  }
-  @media (max-width: 500px) {
-    max-width: 330px;
-    padding: 10px 36px;
-  }
-`;
-
 const SkillTitle = styled.h2`
   font-size: 28px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 20px;
   text-align: center;
+  transition: color 0.3s ease;
 `;
 
 const SkillList = styled.div`
@@ -101,14 +76,15 @@ const SkillList = styled.div`
 const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
+  color: ${({ theme }) => theme.text_primary};
+  border: 1px solid ${({ theme }) => theme.text_secondary};
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: color 0.3s ease, border-color 0.3s ease;
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -124,9 +100,49 @@ const SkillImage = styled.img`
   height: 24px;
 `;
 
-const Skills = () => {
+const SkillBlock = styled.div`
+  width: 100%;
+  max-width: 520px;
+  background-color: ${({ theme }) => theme.card};
+  border: 1px solid #854ce6;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border-radius: 16px;
+  padding: 18px 36px;
+  isolation: isolate;
+  transition: transform 0.35s ease, box-shadow 0.35s ease,
+    border-color 0.35s ease, background-color 0.35s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    background-color: ${({ theme }) => theme.card_light};
+    border-color: #a855f7;
+    box-shadow: 0 12px 32px rgba(133, 76, 230, 0.28),
+      0 4px 16px rgba(23, 92, 230, 0.18);
+    filter: none;
+    -webkit-filter: none;
+  }
+
+  &:hover ${SkillTitle} {
+    color: ${({ theme }) => theme.text_primary};
+  }
+
+  &:hover ${SkillItem} {
+    border-color: ${({ theme }) => theme.primary};
+  }
+
+  @media (max-width: 768px) {
+    max-width: 400px;
+    padding: 10px 36px;
+  }
+  @media (max-width: 500px) {
+    max-width: 330px;
+    padding: 10px 36px;
+  }
+`;
+
+const Skill = () => {
   return (
-    <Container id="skills">
+    <Container id="skills" className="w-full">
       <Wrapper>
         <Title>Skills</Title>
         <Desc>
@@ -135,17 +151,17 @@ const Skills = () => {
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
-            <Skill>
+            <SkillBlock key={skill.title}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image} />
+                  <SkillItem key={item.name}>
+                    <SkillImage src={item.image} alt="" />
                     {item.name}
                   </SkillItem>
                 ))}
               </SkillList>
-            </Skill>
+            </SkillBlock>
           ))}
         </SkillsContainer>
       </Wrapper>
@@ -153,4 +169,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Skill;

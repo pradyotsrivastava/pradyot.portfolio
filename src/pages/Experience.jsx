@@ -6,8 +6,8 @@ import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import React from "react";
 import styled from "styled-components";
-import ExperienceCard from "../Cards/ExperienceCard";
-import { experiences } from "./data";
+import { ExperienceCard } from "../components/Cards";
+import { experiences } from "../data/experiences";
 
 const Container = styled.div`
   display: flex;
@@ -71,18 +71,19 @@ const TimelineSection = styled.div`
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  // align-items: center;
   justify-content: center;
   gap: 12px;
 `;
 
-const StyledTimelineItem = styled(TimelineItem)`
+const StyledTimelineItem = styled(TimelineItem).withConfig({
+  shouldForwardProp: (prop) => prop !== "$isEven",
+})`
   display: flex;
-  flex-direction: ${(props) => (props.isEven ? "row-reverse" : "row")};
+  flex-direction: ${(props) => (props.$isEven ? "row-reverse" : "row")};
   gap: 10px;
 `;
 
-const index = () => {
+const Experience = () => {
   return (
     <Container id="experience">
       <Wrapper>
@@ -94,7 +95,7 @@ const index = () => {
         <TimelineSection>
           <Timeline>
             {experiences.map((experience, index) => (
-              <StyledTimelineItem key={index} isEven={index % 2 === 0}>
+              <StyledTimelineItem key={experience.id ?? index} $isEven={index % 2 === 0}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length - 1 && (
@@ -113,4 +114,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Experience;
