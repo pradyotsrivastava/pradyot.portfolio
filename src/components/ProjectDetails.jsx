@@ -63,7 +63,7 @@ const Desc = styled.div`
   }
 `;
 
-const Image = styled.img`
+const Image = styled.img.attrs({ referrerPolicy: "no-referrer" })`
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
@@ -160,13 +160,13 @@ const Button = styled.a`
   padding: 12px 16px;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.primary};
-  ${({ dull, theme }) =>
-    dull &&
+  ${({ $dull, theme }) =>
+    $dull &&
     `
         background-color: ${theme.bgLight};
         color: ${theme.text_secondary};
         &:hover {
-            background-color: ${({ theme }) => theme.bg + 99};
+            background-color: ${theme.bg + 99};
         }
     `}
   cursor: pointer;
@@ -180,7 +180,7 @@ const Button = styled.a`
   }
 `;
 
-const index = ({ openModal, setOpenModal }) => {
+const ProjectDetails = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
   return (
     <Modal
@@ -198,33 +198,35 @@ const index = ({ openModal, setOpenModal }) => {
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
-          <Image src={project?.image} />
+          <Image src={project?.image} alt="" />
           <Title>{project?.title}</Title>
-          <Date>{project.date}</Date>
+          <Date>{project?.date}</Date>
           <Tags>
-            {project?.tags.map((tag) => (
-              <Tag>{tag}</Tag>
+            {project?.tags?.map((tag) => (
+              <Tag key={tag}>{tag}</Tag>
             ))}
           </Tags>
           <Desc>{project?.description}</Desc>
-          {project.member && (
+          {project?.member && (
             <>
               <Label>Members</Label>
               <Members>
                 {project?.member.map((member) => (
-                  <Member>
-                    <MemberImage src={member.img} />
+                  <Member key={member.name}>
+                    <MemberImage src={member.img} alt="" />
                     <MemberName>{member.name}</MemberName>
                     <a
                       href={member.github}
-                      target="new"
+                      target="_blank"
+                      rel="noreferrer"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <GitHub />
                     </a>
                     <a
                       href={member.linkedin}
-                      target="new"
+                      target="_blank"
+                      rel="noreferrer"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <LinkedIn />
@@ -235,10 +237,7 @@ const index = ({ openModal, setOpenModal }) => {
             </>
           )}
           <ButtonGroup>
-            {/* <Button dull href={project?.github} target="new">
-              View Code
-            </Button> */}
-            <Button href={project?.webapp} target="new">
+            <Button href={project?.webapp} target="_blank" rel="noreferrer">
               View
             </Button>
           </ButtonGroup>
@@ -248,4 +247,4 @@ const index = ({ openModal, setOpenModal }) => {
   );
 };
 
-export default index;
+export default ProjectDetails;

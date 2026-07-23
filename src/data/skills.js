@@ -1,14 +1,49 @@
 export const skills = [
   {
+    title: "Programming",
+    skills: [
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+        {
+        name: "HTML",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+      },
+    ],
+  },
+  {
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "React.js",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       },
       {
-        name: "Next Js",
+        name: "Next.js",
         image:
           "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
       },
@@ -18,23 +53,14 @@ export const skills = [
           "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
       },
       {
-        name: "Apollo Client",
-        image: "https://blog.neocoast.com/thumbs/apollo-client-and-react.png",
-      },
-      {
         name: "Tailwind CSS",
         image:
-          "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
-        name: "Material-UI",
+        name: "Material UI",
         image:
           "https://miro.medium.com/v2/resize:fit:493/1*HHGc3cQgpSVes0maUAnYog.png",
-      },
-      {
-        name: "BootStrap",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-aSzPPaGyMYUdUaBjQ8AOY1_HzoQNfuUhIx7D54EP_Gy5V5yRbK3J2phKdznL6WXdD8&usqp=CAU",
       },
     ],
   },
@@ -42,132 +68,78 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Node Js",
+        name: "Node.js",
         image:
-          "https://www.liblogo.com/img-logo/no6273n057-node-js-logo-nodejs-transparent-logo-google-search.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
       },
       {
-        name: "Express",
+        name: "Express.js",
         image:
-          "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
       },
       {
         name: "Spring Boot",
-        image: "https://insource.io/images/posts/spring-boot.png",
-      },
-      {
-        name: "Spring MVC",
         image:
-          "https://raw.githubusercontent.com/github/explore/7e9f2ae4c6baae923e0029312e6f9308c3e60188/topics/spring-mvc/spring-mvc.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
       },
       {
-        name: "Graph QL",
+        name: "GraphQL",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png",
       },
       {
-        name: "Redis",
-        image: "https://banner2.cleanpng.com/20180609/fq/aa8dic778.webp",
-      },
-      {
-        name: "WebSockets",
+        name: "Firebase",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1200px-Socket-io.svg.png",
+          "https://www.gstatic.com/devrel-devsite/prod/v24b9c6b2afabba7cabce38ea39eb836b143c6716ce4ed7ad9b9ce1142f49221f/firebase/images/touchicon-180.png",
       },
       {
         name: "Microservices",
-        image:
-          "https://www.shutterstock.com/image-vector/gears-cubes-scheme-icon-vector-260nw-1842518809.jpg",
+        image: "https://cdn-icons-png.flaticon.com/512/2920/2920277.png",
       },
     ],
   },
-
   {
-    title: "Database & ORM",
+    title: "Database",
     skills: [
       {
         name: "MongoDB",
         image:
-          "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
       },
       {
         name: "PostgreSQL",
         image:
-          "https://th.bing.com/th/id/OIP.XqeaCqkCWvOFbiNwxGtIEgHaHa?rs=1&pid=ImgDetMain",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
       },
       {
-        name: "My SQL",
-        image: "https://pipedream.com/s.v0/app_1YMhwo/logo/orig",
-      },
-      {
-        name: "Spring Data JPA",
+        name: "Redis",
         image:
-          "https://huongdanjava.com/wp-content/uploads/2022/02/spring-data.png",
-      },
-      {
-        name: "Hibernate",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXRx_pmFP8ny23adWnwrcbYURoeSrCIIgMlg&s",
-      },
-    ],
-  },
-
-  {
-    title: "Languages",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "TypeScript",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyft7BlH2ITx3EAIvVXrV8wrKhWNbPfQVVhg&usqp=CAU",
-      },
-      // {
-      //   name: "Python",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
-      // },
-      {
-        name: "HTML",
-        image:
-          "https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
       },
     ],
   },
   {
-    title: "Dev-Ops",
+    title: "DevOps",
     skills: [
       {
         name: "AWS",
         image:
-          "https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
       },
       {
         name: "Docker",
         image:
-          "https://th.bing.com/th/id/OIP.j5YQgrLzNFDMtw6HkGnOFgHaEK?rs=1&pid=ImgDetMain",
-      },
-      {
-        name: "Jenkins",
-        image: "https://logowik.com/content/uploads/images/jenkins8460.jpg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
       },
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       },
       {
         name: "GitHub",
@@ -175,58 +147,62 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "BitBucket",
+        name: "Bitbucket",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
       },
-      // {
-      //   name: "Vercel",
-      //   image:
-      //     "https://images.ctfassets.net/c63hsprlvlya/1zUViz84vavghFDIK1qmlm/8be7ec39bf58472414e212d7547e7f8b/Vercel__Zeit_.jpeg",
-      // },
-      // {
-      //   name: "Netlify",
-      //   image:
-      //     "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      // },
+      {
+        name: "CI/CD Pipelines",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-plain.svg",
+      },
     ],
   },
   {
     title: "Others",
     skills: [
       {
-        name: "Postman",
-        image:
-          "https://images.seeklogo.com/logo-png/44/1/postman-api-platform-logo-png_seeklogo-446859.png",
+        name: "System Design",
+        image: "https://cdn-icons-png.flaticon.com/512/1087/1087927.png",
       },
       {
-        name: "JUnit",
+        name: "Generative AI",
         image:
-          "https://files.speakerdeck.com/presentations/7f3a63c8ecbb4bd98f4878fab2e07b09/slide_0.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
       },
       {
-        name: "Maven",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhshCy5iK9OgUX0ea-wB9Yw-DuUR8BfPkHOA&s",
+        name: "Prompt Engineering",
+        image: "https://cdn-icons-png.flaticon.com/512/10479/10479426.png",
       },
       {
-        name: "VS Code",
+        name: "Jest",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
       },
       {
-        name: "IntelliJ IDEA",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
+        name: "Agile/Scrum",
+        image: "https://cdn-icons-png.flaticon.com/512/3176/3176298.png",
       },
-      // {
-      //   name: "Adobe XD",
-      //   image: "https://i.ytimg.com/vi/kyFjJKj3-vw/maxresdefault.jpg",
-      // },
+    ],
+  },
+  {
+    title: "Soft Skills",
+    skills: [
       {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+        name: "Problem Solving",
+        image: "https://cdn-icons-png.flaticon.com/512/5431/5431355.png",
+      },
+      {
+        name: "Communication Skills",
+        image: "https://cdn-icons-png.flaticon.com/512/1256/1256650.png",
+      },
+      {
+        name: "Adaptability",
+        image: "https://cdn-icons-png.flaticon.com/512/3588/3588658.png",
+      },
+      {
+        name: "Attention to Detail",
+        image: "https://cdn-icons-png.flaticon.com/512/1828/1828817.png",
       },
     ],
   },

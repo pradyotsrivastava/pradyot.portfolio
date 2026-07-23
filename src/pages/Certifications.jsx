@@ -6,8 +6,8 @@ import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import React from "react";
 import styled from "styled-components";
-import EducationCard from "../Cards/EducationCard";
-import { education } from "./data";
+import { CertificationCard } from "../components/Cards";
+import { certification } from "../data/certifications";
 
 const Container = styled.div`
   display: flex;
@@ -15,8 +15,13 @@ const Container = styled.div`
   justify-content: center;
   position: relative;
   z-index: 1;
+  background: linear-gradient(
+    100.26deg,
+    rgba(0, 102, 255, 0.05) 42.33%,
+    rgba(150, 0, 225, 0.05) 127.07%
+  );
   align-items: center;
-  padding: 0px 0px 60px 0px;
+  padding: 40px 0px 80px 0px;
   @media (max-width: 960px) {
     padding: 0px;
   }
@@ -30,7 +35,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: 1350px;
-  padding: 40px 0px 0px 0px;
+  padding: 80px 0;
   gap: 12px;
   @media (max-width: 960px) {
     flex-direction: column;
@@ -66,44 +71,40 @@ const TimelineSection = styled.div`
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  // align-items: center;
   justify-content: center;
   gap: 12px;
-  @media (max-width: 660px) {
-    align-items: end;
-  }
 `;
 
-const StyledTimelineItem = styled(TimelineItem)`
+const StyledTimelineItem = styled(TimelineItem).withConfig({
+  shouldForwardProp: (prop) => prop !== "$isEven",
+})`
   display: flex;
-  flex-direction: ${(props) => (props.isEven ? "row-reverse" : "row")};
+  flex-direction: ${(props) => (props.$isEven ? "row-reverse" : "row")};
   gap: 10px;
 `;
 
-const index = () => {
+const Certifications = () => {
   return (
-    <Container id="education">
+    <Container id="certification">
       <Wrapper>
-        <Title>Education</Title>
+        <Title>Certifications</Title>
         <Desc>
-          Building a strong academic foundation that supports my technical
-          journey and fuels my growth as a developer.
+          A commitment to continuous learning, showcasing my dedication to
+          mastering industry-recognized skills.
         </Desc>
         <TimelineSection>
           <Timeline>
-            {education.map((education, index) => (
-              <StyledTimelineItem key={index} isEven={index % 2 === 0}>
-                <TimelineItem>
-                  <TimelineContent sx={{ py: "12px", px: 2 }}>
-                    <EducationCard education={education} />
-                  </TimelineContent>
-                  <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="secondary" />
-                    {index !== education.length && (
-                      <TimelineConnector style={{ background: "#854CE6" }} />
-                    )}
-                  </TimelineSeparator>
-                </TimelineItem>
+            {certification.map((cert, index) => (
+              <StyledTimelineItem key={cert.id ?? index} $isEven={index % 2 === 0}>
+                <TimelineSeparator>
+                  <TimelineDot variant="outlined" color="secondary" />
+                  {index !== certification.length - 1 && (
+                    <TimelineConnector style={{ background: "#854CE6" }} />
+                  )}
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: "12px", px: 2 }}>
+                  <CertificationCard certification={cert} />
+                </TimelineContent>
               </StyledTimelineItem>
             ))}
           </Timeline>
@@ -113,4 +114,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Certifications;

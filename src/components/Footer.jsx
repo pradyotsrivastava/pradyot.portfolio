@@ -4,14 +4,13 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import EmailIcon from "@mui/icons-material/Email";
-import { Bio } from "../../data/constants";
+import { Bio } from "../data/bio";
 
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
-  //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
 
 const FooterWrapper = styled.footer`
@@ -85,10 +84,11 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const year = new Date().getFullYear();
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Pradyot Srivastava</Logo>
+        <Logo>{Bio.name}</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -97,24 +97,24 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.email} target="display">
+          <SocialMediaIcon href={Bio.email} target="_blank" rel="noreferrer">
             <EmailIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.facebook} target="display">
+          <SocialMediaIcon href={Bio.facebook} target="_blank" rel="noreferrer">
             <FacebookIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
+          <SocialMediaIcon href={Bio.twitter} target="_blank" rel="noreferrer">
             <TwitterIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
+          <SocialMediaIcon href={Bio.linkedin} target="_blank" rel="noreferrer">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
+          <SocialMediaIcon href={Bio.insta} target="_blank" rel="noreferrer">
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2025 Pradyot Srivastava. All rights reserved.
+          &copy; {year} {Bio.name}. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
